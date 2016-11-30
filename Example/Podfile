@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OverwatchLoadingView_Example' do
+  pod 'OverwatchLoadingView', :path => '../'
+
+  target 'OverwatchLoadingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
