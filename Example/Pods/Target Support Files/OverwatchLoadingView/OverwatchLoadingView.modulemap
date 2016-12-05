@@ -1,0 +1,6 @@
+framework module OverwatchLoadingView {
+  umbrella header "OverwatchLoadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

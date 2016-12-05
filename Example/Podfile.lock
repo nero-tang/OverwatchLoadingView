@@ -1,0 +1,16 @@
+PODS:
+  - OverwatchLoadingView (0.1.0)
+
+DEPENDENCIES:
+  - OverwatchLoadingView (from `../`)
+
+EXTERNAL SOURCES:
+  OverwatchLoadingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OverwatchLoadingView: e938815f55c62811b9231a206b8abf2e323b7948
+
+PODFILE CHECKSUM: fdb94cc4f1799f9f8b08daedf049fd1a26dc8ab7
+
+COCOAPODS: 1.2.0.beta.1

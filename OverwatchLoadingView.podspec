@@ -9,34 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = 'OverwatchLoadingView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OverwatchLoadingView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Overwatch loading indicator in Swift'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This project is an implementation of the Overwatch matchmaking loading indicator on iOS.
+  
+  Overwatch is a registered trademark of Blizzard Entertainment, Inc.
+  This project is in no way affiliated or endorsed by Blizzard Entertainment, Inc.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/OverwatchLoadingView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/nero-tang/OverwatchLoadingView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Archangel' => 'nero.tangyufei@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/OverwatchLoadingView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/nero-tang/OverwatchLoadingView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'OverwatchLoadingView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'OverwatchLoadingView' => ['OverwatchLoadingView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

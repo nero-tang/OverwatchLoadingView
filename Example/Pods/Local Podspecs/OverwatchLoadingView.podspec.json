@@ -1,0 +1,22 @@
+{
+  "name": "OverwatchLoadingView",
+  "version": "0.1.0",
+  "summary": "A short description of OverwatchLoadingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/OverwatchLoadingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Archangel": "nero.tangyufei@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/OverwatchLoadingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OverwatchLoadingView/Classes/**/*"
+}

@@ -1,15 +1,10 @@
 # OverwatchLoadingView
 
-[![CI Status](http://img.shields.io/travis/Archangel/OverwatchLoadingView.svg?style=flat)](https://travis-ci.org/Archangel/OverwatchLoadingView)
 [![Version](https://img.shields.io/cocoapods/v/OverwatchLoadingView.svg?style=flat)](http://cocoapods.org/pods/OverwatchLoadingView)
 [![License](https://img.shields.io/cocoapods/l/OverwatchLoadingView.svg?style=flat)](http://cocoapods.org/pods/OverwatchLoadingView)
 [![Platform](https://img.shields.io/cocoapods/p/OverwatchLoadingView.svg?style=flat)](http://cocoapods.org/pods/OverwatchLoadingView)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+Overwatching loading indicator written in Swift. This project is inspired by [OverWatchLoading](https://github.com/zhangyuChen1991/OverWatchLoading).
 
 ## Installation
 
@@ -19,10 +14,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "OverwatchLoadingView"
 ```
-
-## Author
-
-Archangel, nero.tangyufei@gmail.com
 
 ## License
 
