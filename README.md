@@ -15,6 +15,49 @@ it, simply add the following line to your Podfile:
 pod "OverwatchLoadingView"
 ```
 
+## Example
+
+![image](https://github.com/nero-tang/OverwatchLoadingView/blob/master/OverwatchLoadingView.gif)
+
+### Usage
+
+```swift
+class ViewController: UIViewController {
+
+	let loadingView = OverwatchLoadingView()
+
+	override func viewDidLoad() {
+	    super.viewDidLoad()
+	
+        view.addSubview(loadingView)
+        
+        // Custom configuration
+        loadingView.animateInterval = 2
+        loadingView.hidesWhenStopped = true
+        loadingView.color = .red
+        
+        // Setup autolayout constraints as you wish
+        ...
+    }
+
+
+    override func viewDidAppear(_ animated: Bool) {
+	    super.viewDidAppear(animated)
+	
+		// Start animating
+		loadingView.startAnimating()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Stop animating
+        loadView.stopAnimating()
+    }
+}
+
+```
+
 ## License
 
 OverwatchLoadingView is available under the MIT license. See the LICENSE file for more info.
